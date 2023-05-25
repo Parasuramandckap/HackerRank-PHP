@@ -1,8 +1,8 @@
 <?php
 function staircase($n) {
     // Write your code here
-    for($i =1; $i <= $n; $i++){
-        echo str_repeat(".", $n - $i);
+    for($i =1; $i <=$n; $i++){
+        echo str_repeat(" ", $n - $i);
         echo str_repeat("#", $i);
        
 
@@ -12,4 +12,4 @@ function staircase($n) {
    
 
 }
-staircase(8);
+staircase(6);
